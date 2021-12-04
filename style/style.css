@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+    /* outline: 1px solid grey; */
+}
+
+.header {
+    background-color: #222222;
+    color: #fff;
+    padding: 18px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-link {
+    margin-right: 41px;
+}
+
+.header-profile-link {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.offer {
+    background-color: #f1e4e6;
+    padding-top: 15px;
+    border-bottom: 5px solid lightgray;
+}
+
+.offer-right {
+    padding-right: 100px;
+}
+
+.offer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories {
+    background-color: #fff;
+    margin-top: 60px;
+}
+
+.categories-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-card-women {
+    width: 360px;
+    height: 260px;
+    padding-top: 105px;
+}
+
+.categories-card-men {
+    width: 360px;
+    height: 260px;
+    padding-top: 105px;
+}
+
+.categories-card-kids {
+    width: 360px;
+    height: 260px;
+    padding-top: 105px;
+}
+
+.categories-card-acc {
+    width: 100%;
+    height: 180px;
+    margin-top: 30px;
+    padding-top: 100px;
+}
+
+.categories-card-p1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.categories-card-p2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #f16d7f;
+}
+
+.products {
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.products-header {
+    margin-bottom: 48px;
+}
+
+.products-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-header-p1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.products-header-p2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+}
+
+.products-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.products-cards-plaincard {
+    width: 360px;
+    height: 581px;
+    background-color: #f8f8f8;
+    margin-bottom: 30px;
+}
+
+.products-cards-plaincard-text {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.products-cards-plaincard-text1row {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.products-cards-plaincard-text2row {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.products-cards-plaincard-text3row {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+}
+
+.products-browse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-browse-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
+}
+
+.products-browse-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 47px;
+    border: 1px solid #ff6a6a;
+}
+
+.benefits {
+    background-color: #222222;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.benefits-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefits-delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits-discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits-quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits-p {
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #fbfbfb;
+    margin-top: 33px;
+    margin-bottom: 23px;
+}
+
+.benefits-text-p {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.subscribe-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 343px;
+}
+
+.subscribe-left-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-left-img {
+    margin-top: 97px;
+    margin-bottom: 30px;
+}
+
+.subscribe-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.subscribe-right-phead {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    margin-top: 150px;
+}
+.subscribe-right-ptext {
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+.subscribe-right-input {
+    background: #e1e1e1;
+    border-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+    height: 49px;
+    border-radius: 24px 0 0 24px;
+    width: 256px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subscribe-right-button {
+    background-color: #f16d7f;
+    border-style: none;
+    height: 49px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    border-radius: 0 24px 24px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.registration {
+    background-color: #f1e4e6;
+}
+
+.registration-wrap {
+    display: flex;
+    height: 148px;
+    align-items: center;
+}
+
+.registration-p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #f16d7f;
+}
+
+.registration-form {
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 96px;
+}
+
+.registration-form-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration-form-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form-left-label {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.registration-form-left-p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b1b1b1;
+    width: 359px;
+    margin-bottom: 39px;
+}
+
+.rb-malefemale {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 33px;
+    margin-top: 11px;
+}
+
+.span-mf {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.registration-form-right {
+    width: 652px;
+}
+
+.registration-form-right-p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.registration-form-right-ul {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    list-style-type: none;
+}
+
+.registration-form-right-li {
+    margin-bottom: 16px;
+}
+
+.registration-form-input {
+    border: 1px solid #a4a4a4;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b1b1b1;
+    width: 359px;
+    height: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.registration-form-submit {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    height: 50px;
+    width: 167px;
+    background-color: #f16d7f;
+    border-style: none;
+}
+
+.footer {
+    background-color: #222222;
+    color: #fff;
+    padding: 23px 0;
+}
+
+.footer-col-2 {
+    display: flex;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fbfbfb;
+}
+
+.footer-col-2-fblink {
+    margin-right: 8px;
+}
+
+.footer-col-2-instalink {
+    margin-right: 8px;
+}
+
+.footer-col-2-plink {
+    margin-right: 8px;
+}
