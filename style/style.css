@@ -50,6 +50,30 @@ input {
     padding-right: 100px;
 }
 
+.offer-right-h1-sbold {
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+color: #222222;
+padding-left: 16px;
+}
+
+.offer-right-h1-slx {
+padding-left: 16px;
+}
+
+.offer-right-h1-sred {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
+}
+    
+
+.offer-right-h1 {
+    border-left: 16px solid #F16D7F;
+}
+
 .offer-wrap {
     display: flex;
     justify-content: space-between;
@@ -68,32 +92,22 @@ input {
     align-items: center;
 }
 
-.categories-card-women {
+.categories-card {
     width: 360px;
     height: 260px;
     padding-top: 105px;
-}
+    background-color: lightgrey;
 
-.categories-card-men {
-    width: 360px;
-    height: 260px;
-    padding-top: 105px;
-}
-
-.categories-card-kids {
-    width: 360px;
-    height: 260px;
-    padding-top: 105px;
 }
 
 .categories-card-acc {
-    width: 100%;
+    width: 1140px;
     height: 180px;
     margin-top: 30px;
-    padding-top: 100px;
+    padding-top: 65px;
 }
 
-.categories-card-p1 {
+.categories-card-h3-1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -101,7 +115,7 @@ input {
     color: #ffffff;
 }
 
-.categories-card-p2 {
+.categories-card-h3-2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
@@ -124,14 +138,14 @@ input {
     align-items: center;
 }
 
-.products-header-p1 {
+.products-header-h2 {
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     color: #222222;
 }
 
-.products-header-p2 {
+.products-header-h3 {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -155,6 +169,7 @@ input {
 .products-cards-plaincard-text {
     margin-top: 24px;
     margin-left: 16px;
+    margin-right: 16px;
 }
 
 .products-cards-plaincard-text1row {
@@ -199,7 +214,9 @@ input {
     justify-content: center;
     align-items: center;
     width: 211px;
-    height: 47px;
+    /* height: 47px; */
+    padding-top: 14px;
+    padding-bottom: 14px;
     border: 1px solid #ff6a6a;
 }
 
@@ -250,6 +267,14 @@ input {
     color: #fbfbfb;
 }
 
+.subscribe {
+    height:448px;
+    /* background-image: url(img/subscribe.jpg); */
+    /* background-size:cover; */
+    /* background-repeat: no-repeat; */
+    /* ! не понимаю, почему не работает фон, если прописываю здесь! */
+}
+
 .subscribe-wrap {
     display: flex;
     justify-content: space-between;
@@ -262,7 +287,7 @@ input {
     width: 343px;
 }
 
-.subscribe-left-p {
+.subscribe-left-h3 {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -282,7 +307,7 @@ input {
     width: 50%;
 }
 
-.subscribe-right-phead {
+.subscribe-right-h2head {
     font-weight: bold;
     font-size: 24px;
     line-height: 167.2%;
@@ -290,7 +315,7 @@ input {
     color: #222224;
     margin-top: 150px;
 }
-.subscribe-right-ptext {
+.subscribe-right-h2text {
     font-size: 18px;
     line-height: 167.2%;
     text-align: center;
@@ -306,24 +331,24 @@ input {
     line-height: 17px;
     color: #222224;
     opacity: 0.67;
-    height: 49px;
-    border-radius: 24px 0 0 24px;
+    border-radius: 30px 0 0 30px;
     width: 256px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 .subscribe-right-button {
     background-color: #f16d7f;
     border-style: none;
-    height: 49px;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
-    border-radius: 0 24px 24px 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-radius: 0 30px 30px 0;
+    padding: 20px;
+}
+
+.subscribe-form {
+    display: flex;
 }
 
 .registration {
@@ -457,7 +482,7 @@ input {
     align-items: center;
 }
 
-.footer-p {
+.footer-h3 {
     font-size: 16px;
     line-height: 19px;
     color: #fbfbfb;
