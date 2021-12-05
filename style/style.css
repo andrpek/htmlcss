@@ -361,7 +361,7 @@ padding-left: 16px;
     align-items: center;
 }
 
-.registration-p {
+.registration-h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -421,7 +421,7 @@ padding-left: 16px;
     width: 652px;
 }
 
-.registration-form-right-p {
+.registration-form-right-h2 {
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
@@ -448,11 +448,10 @@ padding-left: 16px;
     line-height: 16px;
     color: #b1b1b1;
     width: 359px;
-    height: 44px;
+    /* height: 44px; */
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding: 17px;
 }
 
 .registration-form-submit {
@@ -460,7 +459,8 @@ padding-left: 16px;
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
-    height: 50px;
+    /* height: 50px; */
+    padding: 17px;
     width: 167px;
     background-color: #f16d7f;
     border-style: none;
