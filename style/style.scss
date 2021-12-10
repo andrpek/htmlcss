@@ -42,6 +42,33 @@ input {
         margin-left: 30px;
         margin-right: 30px;
     }
+    &-col-2 {
+        list-style-type: none;
+        display: flex;
+        gap: 25px;
+    }
+    &-menu-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 32px;
+        width: 32px;
+        color: #e8e8e8;
+        text-decoration: none;
+        &:hover {
+            color: #f16d7f;
+        }
+    }
+}
+
+.header-menu-link .fa-bars {
+    font-size: 30px;
+}
+.header-menu-link .fa-cart-plus {
+    font-size: 30px;
+}
+.header-menu-link .fa-user {
+    font-size: 30px;
 }
 
 .offer {
@@ -451,6 +478,24 @@ input {
         font-size: 16px;
         line-height: 19px;
         color: #fbfbfb;
+    }
+    &-social-ul {
+        list-style-type: none;
+        display: flex;
+        gap: 8px;
+    }
+    &-social-link {
+        text-decoration: none;
+        background-color: #ffffff;
+        height: 32px;
+        width: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        &:hover {
+            background-color: #f16d7f;
+        }
     }
 }
 

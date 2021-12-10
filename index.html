@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/e5315c33a2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,17 +25,23 @@
                     <img class="header-search" src="img/icon-search.svg" alt="search">
                 </a>
             </div>
-            <div class="header-col-2">
-                <a class="header-menu-link" href="#">
-                    <img class="header-menu" src="img/icon-menu.svg" alt="menu">
-                </a>
-                <a href="registration.html" class="header-profile-link">
-                    <img class="header-profile" src="img/icon-profile.svg" alt="profile">
-                </a>
-                <a href="cart.html" class="header-basket-link">
-                    <img class="header-basket" src="img/icon-basket.svg" alt="basket">
-                </a>
-            </div>
+            <ul class="header-col-2">
+                <li>
+                    <a class="header-menu-link" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-menu-link" href="registration.html" class="header-profile-link">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-menu-link" href="cart.html" class="header-basket-link">
+                        <i class="fas fa-cart-plus"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
 
@@ -232,20 +239,20 @@
             <div class="footer-col-1">
                 <h3 class="footer-h3">&copy; 2021 Brand All Rights Reserved.</h3>
             </div>
-            <div class="footer-col-2">
-                <a class="footer-col-2-fblink" href="#">
-                    <img src="img/icon-fb.png" alt="fb">
-                </a>
-                <a class="footer-col-2-instalink" href="#">
-                    <img src="img/icon-instagram.png" alt="insta">
-                </a>
-                <a class="footer-col-2-plink" href="#">
-                    <img src="img/icon-p.png" alt="p">
-                </a>
-                <a class="footer-col-2-twitterlink" href="#">
-                    <img src="img/icon-twitter.png" alt="twitter">
-                </a>
-            </div>
+            <ul class="footer-social-ul">
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-vk"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
